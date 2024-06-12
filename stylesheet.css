@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.grid-container {
+display: flex;
+justify-content: center;
+align-items:center ;
+flex-wrap: nowrap;
+gap: 20px;
+border: 0px solid red;
+margin: 20px 10px;
+
+}
+
+header {
+    background: black;
+
+    width: 100%;
+    padding: 120px 8px;
+}
+
+#title{
+    font-size: clamp(0.9375rem, -0.9091rem + 4.9242vw, 5rem);
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 20px;
+    font-style: bold;
+    letter-spacing: 10px;
+}
+
+#first{
+    font-size: clamp(0.625rem, 0.1989rem + 1.1364vw, 1.5625rem);
+    color: whitesmoke;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 10px;
+}
+
+img {
+    height: 500px;
+    width: 94.9em;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.image{
+  background:url(img/north.jpg);
+  height: 60vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.definition{
+    font-size: 25px;
+    text-align: center;
+    padding:0px 80px;
+    line-height: 3rem;
+}
+
+.grid-item{
+    border-radius: 20px;
+    background: #c6ac8c;
+    font-size: 20px;
+    padding: 40px 10px;
+    color: white;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    padding-top: 150px;
+    text-shadow: 2px 2px #343e0c;
+    line-height: 2rem;
+    
+}
+
+
+.conclusion{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    padding: 0px 80px 0px 80px;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.last{
+
+    background: black;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    line-height: 2em;
+}
+
+.gif{
+  height: 60vh;
+  width: 100%;
+}
+
+  
+  @media (max-width: 800px) {
+    header {
+      width: 100%;
+      height: auto;
+    }
+  
+    .definition{
+      text-align: justify;
+  }
+  .grid-container {
+    flex-wrap: wrap;
+    }
+
+  .conclusion{
+    text-align: justify;
+}
+.gif{
+  height: auto;
+  width: 100%;
+}
+    img  {
+      width: 500px;
+    }
+  
+    footer {
+      width: 100%;
+    }
+  }
+  
+
+  
